@@ -17,7 +17,7 @@
 
   return new Promise(function (resolve, reject) {
     // subscribe to the changes via Pusher
-    var pusher = new Pusher(a7d4e5ce475784bfe979);
+    var pusher = new Pusher(c04966731db51e97e588);
     var channel = pusher.subscribe(id);
     channel.bind('client-text-edit', function(html) {
       // save the current position
